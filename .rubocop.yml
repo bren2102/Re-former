@@ -3,8 +3,10 @@ AllCops:
     - "README.md"
     - "Guardfile"
     - "Rakefile"
-    - "README.md"
     - "Gemfile"
+    - "config/**/*"
+    - "db/*"
+    - "bin/**/*"
 
   DisplayCopNames: true
 

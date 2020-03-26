@@ -19,7 +19,6 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-    
     if @user.update(user_params)
       redirect_to '/'
     else
@@ -30,6 +29,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:username,:email,:password)
+    params.require(:user).permit(:username, :email, :password)
   end
 end
