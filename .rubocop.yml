@@ -5,6 +5,7 @@ AllCops:
     - "Rakefile"
     - "Gemfile"
     - "config/**/*"
+    - "config/*"
     - "db/*"
     - "bin/**/*"
 

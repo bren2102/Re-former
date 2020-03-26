@@ -13,6 +13,7 @@ files:
     - "README.md"
     - "Gemfile"
     - "config/**/*"
+    - "config/*"
     - "db/*"
     - "bin/**/*"
     
